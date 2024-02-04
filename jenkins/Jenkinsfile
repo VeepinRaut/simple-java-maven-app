@@ -16,10 +16,5 @@ pipeline {
                 }
             }
         }
-        stage('complete') {
-            steps {
-                sh 'echo "Changed to Polling terst"'
-            }
-        }
     }
 }
